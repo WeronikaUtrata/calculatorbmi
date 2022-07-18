@@ -9,25 +9,25 @@
 
 <body>
     <p>Policz swoje BMI!</p>
-    <form>
-        <fieldset>
-            <legend>Twoje dane:</legend>
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Twoje dane:</legend>
             <p>
                 <label>
-                    Twój wzrost: <input type="number" min="1" step="any" required>
+                    Twój wzrost: <input class="form__field js-height" type="number" min="1" step="any" required>
                 </label>
             </p>
             <p>
                 <label>
-                    Twoja waga: <input type="number" min="1" step="any" required>
+                    Twoja waga: <input class="form__field js-weight" type="number" min="1" step="any" required>
                 </label>
             </p>
         </fieldset>
         <p>
-            <button>Policz BMI!</button>
+            <button class="form__button">Policz BMI!</button>
         </p>
     </form>
-    <p>Twoje BMI wynosi: <strong></strong></p>
+    <p>Twoje BMI wynosi: <strong class="js-result"></strong></p>
 </body>
 
 </html>
