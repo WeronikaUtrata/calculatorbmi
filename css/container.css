@@ -12,6 +12,7 @@ html {
     padding: 20px;
     font-family: 'Montserrat';
     font-size: large;
+    background-image: url("../images/background.jpg");
 }
 
 .form__field {
