@@ -11,5 +11,6 @@ https://vievenna.github.io/calculatorbmi/
 
 ## Languages
 - HTML
+- BEM
 - CSS
 - JavaScript
